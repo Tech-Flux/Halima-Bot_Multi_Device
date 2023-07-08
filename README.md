@@ -7,7 +7,7 @@
   <a href="https://github.com/x-poison"><img title="Author" src="https://img.shields.io/badge/Author-Abdul-blueviolet.svg?style=for-the-badge&logo=github" /></a>
 </p>
 
-## [![JavaScript](https://img.shields.io/badge/JavaScript-d6cc0f?style=for-the-badge&logo=javascript&logoColor=white)](https://www.javascript.com) [![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) [![NodeJS](https://img.shields.io/badge/SQLite3-000000?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.mongodb.org)
+## [![JavaScript](https://img.shields.io/badge/JavaScript-d6cc0f?style=for-the-badge&logo=javascript&logoColor=white)](https://www.javascript.com) [![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/) [![NodeJS](https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.mongodb.org)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/x-poison/Halima-Bot_Multi_Device/badge/master)](https://www.codefactor.io/repository/github/x-poison/Halima-Bot_Multi_Device/overview/master) [![](https://img.shields.io/github/repo-size/x-poison/Halima-Bot_Multi_Device)](https://github.com/x-poison/Halima-Bot_Multi_Device/) [![](https://img.shields.io/github/forks/x-poison/Halima-Bot_Multi_Devicesvg)](https://github.com/x-poison/Halima-Bot_Multi_Device/network/members) [![](https://img.shields.io/github/stars/x-poison/Halima-Bot_Multi_Device.svg)](https://github.com/x-poison/Halima-Bot_Multi_Device/network/members)
 
