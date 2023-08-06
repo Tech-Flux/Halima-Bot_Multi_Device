@@ -32,8 +32,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DarkMakerofc/Queen-Elisa-Md-V2
-cd Queen-Elisa-Md-V2
+git clone https://github.com/x-poison/Halima-Bot_Multi_Device
+cd Halima-Bot_Multi_Device
 npm install
 npm start
 ```
