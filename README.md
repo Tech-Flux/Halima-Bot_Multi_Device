@@ -1,7 +1,9 @@
+<p align="center">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=HALIMA+MD+WHATSAPP+BOT" alt="">
+</p>
+    
 <div align="center">
 <img src="https://i.imgur.com/RGtXyG2.jpg" width="150" height="150" border="0" alt="PFP">
-
-# Halima-Bot Multi Device
 
 <p align="center">
   <a href="https://github.com/x-poison"><img title="Author" src="https://img.shields.io/badge/Author-Abdul-blueviolet.svg?style=for-the-badge&logo=github" /></a>
