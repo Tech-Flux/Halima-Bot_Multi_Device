@@ -15,6 +15,29 @@ Lightweight WhatsApp Bot
 
 </div>
 
+<summary>𝗖𝗟𝗜𝗖𝗞 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬</summary>
+
+[`Deploy on Railway`](https://railway.app?referralCode=jDDNQq)
+
+
+### [ DEPLY ON TERMUX ]
+ ```   
+apt update
+apt upgrade
+pkg update && pkg upgrade
+pkg install bash
+pkg install libwebp
+pkg install git -y
+pkg install nodejs -y 
+pkg install ffmpeg -y 
+pkg install wget
+pkg install imagemagick -y
+git clone https://github.com/DarkMakerofc/Queen-Elisa-Md-V2
+cd Queen-Elisa-Md-V2
+npm install
+npm start
+```
+
 ## ✨ Highlights
 
 -   Written in [Javascript](https://www.javascript.com).
