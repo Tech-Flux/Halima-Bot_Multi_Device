@@ -3,7 +3,7 @@
 </p>
     
 <div align="center">
-<img src="https://i.imgur.com/RGtXyG2.jpg" width="170" height="170" border="0" alt="PFP">
+<img src="https://i.imgur.com/RGtXyG2.jpg" width="170" height="170" border-radius="50" alt="PFP">
 
 <p align="center">
   <a href="https://github.com/x-poison"><img title="Author" src="https://img.shields.io/badge/Author-Abdul-blueviolet.svg?style=for-the-badge&logo=github" /></a>
