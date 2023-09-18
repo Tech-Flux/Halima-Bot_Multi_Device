@@ -28,7 +28,7 @@ let tags = {
   'quotes':'ǫᴜᴏᴛᴇs',
   //'ansfw': 'NSFW ANIME',
  // 'owner': 'ᴏᴡɴᴇʀ', 
-  //'advanced': 'AVANZADO',
+  //'advanced': 'AVANZADO', more on this channel x-poison
 }
 const emojis = ['😀', '😃', '😄', '😁', '😆', '😅', '😂', '🤣', '😊', '😇',
   '😍', '🥰', '😘', '😗', '😋', '😛', '😜', '🤪', '😝', '🤑',
