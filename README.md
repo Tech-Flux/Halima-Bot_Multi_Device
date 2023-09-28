@@ -3,7 +3,7 @@
 </p>
     
 <div style="text-align: center;">
-  <img src="https://i.imgur.com/RGtXyG2.jpg" width="150" height="150" border="0" alt="PFP" style="border-radius: 50%;">
+  <p align="center"><img src="https://i.imgur.com/EJgRBnS.jpg"></p>
 </div>
 
 
