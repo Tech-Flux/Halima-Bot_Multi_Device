@@ -1,26 +1,27 @@
-const linkRegex = /chat.whatsapp.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i
+const linkRegex = /(https?:\/\/[^\s]+)/i;
 
-export async function before(m, {conn, isAdmin, isBotAdmin }) {
-    if (m.isBaileys && m.fromMe)
-        return !0
-    if (!m.isGroup) return !1
-    let chat = global.db.data.chats[m.chat]
-    let bot = global.db.data.settings[this.user.jid] || {}
-    const isGroupLink = linkRegex.exec(m.text)
+export async function before(m, { conn, isAdmin, isBotAdmin }) {
+  if (m.isBaileys && m.fromMe) return !0;
+  if (!m.isGroup) return !1;
 
-    if (chat.antiLink && isGroupLink && !isAdmin) {
-        if (isBotAdmin) {
-            const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
-            if (m.text.includes(linkThisGroup)) return !0
-        }
-        await conn.reply(m.chat, `≡ Link Detected
-            
-We don't allow links from other groups
-I am sorry @${m.sender.split('@')[0]}  You will be expelled from the group ${isBotAdmin ? '' : '\n\nI\'m not admin so I can\'t ban you, uko na bahati sana😃'}`, null, { mentions: [m.sender] } )
-        if (isBotAdmin && chat.antiLink) {
-        	await conn.sendMessage(m.chat, { delete: m.key })
-            await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!chat.antiLink) return //m.reply('')
+  let chat = global.db.data.chats[m.chat];
+  let bot = global.db.data.settings[this.user.jid] || {};
+  const hasLink = linkRegex.test(m.text);
+
+  if (chat.antiLink && hasLink && !isAdmin) {
+    if (isBotAdmin) {
+      const groupInviteLink = `https://${await this.groupInviteCode(m.chat)}`;
+      if (m.text.includes(groupInviteLink)) return !0;
     }
-    return !0
+    await conn.reply(m.chat, `*≡ Link Detected⚠️*
+            
+_kicked @${m.sender.split('@')[0]},_* ${isBotAdmin ? '' : '\n\n*_I\'m not an admin,'}`, null, { mentions: [m.sender] });
+    if (isBotAdmin && chat.antiLink) {
+      await conn.sendMessage(m.chat, { delete: m.key });
+      await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove');
+    } else if (!chat.antiLink) {
+      return;
+    }
+  }
+  return !0;
 }

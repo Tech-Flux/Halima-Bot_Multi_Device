@@ -161,7 +161,7 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Hello, @user\nWelcome to @group'
+  conn.welcome = 'Hello Dear, @user\nWelcome to @group heres is Group description @desc'
   conn.bye = 'Goodbye @user'
   conn.spromote = '@user promoted to admin'
   conn.sdemote = '@user Demoted'

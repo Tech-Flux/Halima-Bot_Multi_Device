@@ -3,40 +3,41 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['254798708444', 'Abdul ❤️🫶', true], 
+  ['254798708444', 'Abdul ❤️🫶', true],
+  // ['254787 002739', 'Alchemist']
 ]
 
-global.mods = ['254798708444'] 
+global.mods = ['254798708444']
 global.prems = ['254798708444']
-global.APIs = { 
-  xteam: 'https://api.xteam.xyz', 
+global.APIs = {
+  xteam: 'https://api.xteam.xyz',
   nrtm: 'https://fg-nrtm.ddns.net',
   bg: 'http://bochil.ddns.net',
   fgmods: 'https://api-fgmods.ddns.net'
 }
 global.APIKeys = {
   'https://api.xteam.xyz': 'd90a9e986e18778b',
-  'https://zenzapis.xyz': '675e34de8a', 
-  'https://api-fgmods.ddns.net': '𝐀𝐛𝐝𝐮𝐥𝐫𝐚𝐡𝐦𝐚𝐧'
+  'https://zenzapis.xyz': '675e34de8a',
+  'https://api-fgmods.ddns.net': 'x7ZtRLdB'
 }
 
-global.packname = 'Halimaᴮᴼᵀ' 
-global.author = '𝐇𝐚𝐥𝐢𝐦𝐚' 
-global.fgig = '▢ Follow me on Instagram\nhttps://www.instagram.com/noo.i.e\n' 
+global.packname = 'Made With ❤️'
+global.author = 'Abdulrahman'
+global.fgig = '▢ Follow me on Instagram\nhttps://www.instagram.com/noo.i.e\n'
 global.dygp = 'https://chat.whatsapp.com/IfcVaQFsS8UCTkSEugeSt2'
-global.fgsc = 'https://github.com/x-poison' 
+global.fgsc = 'https://github.com/x-poison'
 global.fgyt = 'https://youtube.com/@poisonmods'
-global.fglog = 'https://i.imgur.com/EJgRBnS.jpg' 
+global.fglog = 'https://i.imgur.com/EJgRBnS.jpg'
 
 global.wait = '*⌛ _loading..._*\n*▰▰▰▰▰▰▱▱*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
-global.error = '❌' 
-global.xmoji = '🔥' 
+global.error = '❌'
+global.xmoji = '🔥'
 
-global.multiplier = 69 
-global.maxwarn = '5'
+global.multiplier = 69
+global.maxwarn = '3'
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {

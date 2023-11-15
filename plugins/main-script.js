@@ -7,14 +7,13 @@ let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.js
 m.reply(`
 *≡ SCRIPT*
 
-▢ Git : https://github.com/x-poison
+▢ Git : https://github.com/x-poison/Halima-Bot_Multi_Device
 `.trim())
-   m.react('📜')
     
 }
 
 handler.help = ['script']
 handler.tags = ['main']
-handler.command = ['sc', 'git', 'script'] 
+handler.command = ['src', 'git', 'script'] 
 
 export default handler

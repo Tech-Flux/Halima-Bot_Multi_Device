@@ -179,7 +179,7 @@ export async function handler(chatUpdate) {
             if (typeof settings !== 'object') global.db.data.settings[this.user.jid] = {}
             if (settings) {
                 if (!('self' in settings)) settings.self = false
-                if (!('autoread' in settings)) settings.autoread = false
+                if (!('autoread' in settings)) settings.autoread = true
                 if (!('restrict' in settings)) settings.restrict = false
                 if (!('status' in settings)) settings.status = 0
             } else global.db.data.settings[this.user.jid] = {
@@ -620,7 +620,7 @@ global.dfail = (type, m, conn) => {
         private: '📮 This command can only be used in the *private chat of the Bot*',
         admin: '🛡️ This command is only for *Admins* of the group',
         botAdmin: '💥 *Make me Admin First*',
-        unreg: '📇 Register to use this feature by Typing:\n\n*.reg name.age*\n\n📌Example : */reg Abdul.16*',
+        unreg: '📇 Register to use this feature by Filling out this Form \n\nhttps://forms.gle/NJfUDq8yVJbFPoLs8\n\nAnd then type\n\n*.reg name.age to verify your registration*\n\n📌Example : */reg Abdul.16*',
         restrict: '🔐 This feature is *disabled* by Abdul'
     }[type]
     if (msg) return m.reply(msg)
