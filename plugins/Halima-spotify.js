@@ -29,4 +29,4 @@ let handler = async (m, { conn, text }) => {
 };
 
 handler.command = /^(spotify|song)$/i;
-export default handler;
+export default handler;//relate
