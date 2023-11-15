@@ -97701,7 +97701,7 @@
       "chatbot": false
     },
     "212654869888@s.whatsapp.net": {
-      "exp": 125,
+      "exp": 129,
       "diamond": 10,
       "lastclaim": 0,
       "registered": false,
@@ -112200,6 +112200,40 @@
       "role": "Novice",
       "autolevelup": false,
       "chatbot": false
+    },
+    "212774764593@s.whatsapp.net": {
+      "exp": 9,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "marwanhamese",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novice",
+      "autolevelup": false,
+      "chatbot": false
+    },
+    "212694126085@s.whatsapp.net": {
+      "exp": 0,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "mhmdamzghn",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novice",
+      "autolevelup": false,
+      "chatbot": false
     }
   },
   "chats": {
@@ -121975,7 +122009,7 @@
       "self": false,
       "autoread": false,
       "restrict": false,
-      "status": 1700032608509
+      "status": 1700044763400
     },
     "254735905221@s.whatsapp.net": {
       "self": false,
