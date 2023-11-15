@@ -3,7 +3,7 @@ import axios from 'axios';
 let handler = async (m, { conn, text }) => {
   if (!text) throw '*ENTER NAME OF THE SONG*';
   try {
-    let lolkeysapi = 'YOUR_LOLHUMAN_API_KEY'; // Replace this with your actual API key
+    let lolkeysapi = '0b89a8312b59ad8fd6c39538; // Replace this with your actual API key
     let res = await axios.get(`https://api.lolhuman.xyz/api/spotifysearch?apikey=${lolkeysapi}&query=${encodeURIComponent(text)}`);
     let json = res.data;
     if (json.status !== 200 || !json.result || json.result.length === 0) {
