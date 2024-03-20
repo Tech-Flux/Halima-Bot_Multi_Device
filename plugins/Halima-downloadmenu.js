@@ -50,7 +50,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 └───────────◈\n*ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ ᴀʙᴅᴜʟ*
   `;
 
-  let pp = './download.jpg';
+  let pp = './src/download.jpg';
   conn.sendFile(m.chat, pp, 'menu.jpg', m2, m, null, rpl);
   const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     m.react(randomEmoji);

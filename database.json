@@ -18,7 +18,7 @@
       "chatbot": false
     },
     "254798708444@s.whatsapp.net": {
-      "exp": 118604,
+      "exp": 118709,
       "diamond": 1346,
       "lastclaim": 1698690436630,
       "registered": true,
@@ -112268,6 +112268,23 @@
       "role": "Novice",
       "autolevelup": false,
       "chatbot": false
+    },
+    "233502724069@s.whatsapp.net": {
+      "exp": 2,
+      "diamond": 10,
+      "lastclaim": 0,
+      "registered": false,
+      "name": "Ismail abdulaialhassanism",
+      "age": -1,
+      "regTime": -1,
+      "afk": -1,
+      "afkReason": "",
+      "banned": false,
+      "warn": 0,
+      "level": 0,
+      "role": "Novice",
+      "autolevelup": false,
+      "chatbot": false
     }
   },
   "chats": {
@@ -121032,10 +121049,10 @@
       "lastSuccess": 1699717160867
     },
     "main-menu.js": {
-      "total": 1221,
-      "success": 1218,
-      "last": 1710920198744,
-      "lastSuccess": 1710920198744
+      "total": 1227,
+      "success": 1221,
+      "last": 1710921931037,
+      "lastSuccess": 1710921931037
     },
     "Halima-alive.js": {
       "total": 171,
@@ -121236,10 +121253,10 @@
       "lastSuccess": 1697406793119
     },
     "gp-delete.js": {
-      "total": 124,
-      "success": 116,
-      "last": 1699827313101,
-      "lastSuccess": 1699827313101
+      "total": 125,
+      "success": 117,
+      "last": 1710922013949,
+      "lastSuccess": 1710922013949
     },
     "enable.js": {
       "total": 186,
@@ -121632,9 +121649,9 @@
       "lastSuccess": 1699954886127
     },
     "cmd-del.js": {
-      "total": 6,
+      "total": 7,
       "success": 4,
-      "last": 1699643511369,
+      "last": 1710922016726,
       "lastSuccess": 1699643511369
     },
     "gp-setwelcome.js": {
@@ -122071,7 +122088,7 @@
       "self": false,
       "autoread": false,
       "restrict": false,
-      "status": 1710920196730
+      "status": 1710922013669
     }
   }
 }

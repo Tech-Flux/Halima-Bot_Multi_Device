@@ -23,7 +23,7 @@ var handler = async(m, { conn, text }) => {
 *┃▢* *Location:* ${location}
 *┃▢* *Account Type:* ${type}
 *└──✪ Halima ┃ ᴮᴼᵀ ✪──*`
-    let logogit = './Logogit.png'
+    let logogit = './src/Logogit.png'
     conn.sendFile(m.chat, logogit, 'githubstalk.jpg', hasil, m)
     m.react('✅')
 }
